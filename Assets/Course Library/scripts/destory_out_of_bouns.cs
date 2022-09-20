@@ -22,6 +22,8 @@ public class destory_out_of_bouns : MonoBehaviour
         else if(transform.position.z < bottomOfSceane)
         {
             Destroy(gameObject);
+            Debug.Log("Game Over");
+
         }
     }
 }
